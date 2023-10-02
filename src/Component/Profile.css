@@ -1,0 +1,9 @@
+.Profile {
+    width: 150px; 
+    height: 300px; 
+    border: 100px solid #0a0a0a; 
+    padding: 300px; 
+    margin: 140px; ;font-style: oblique; color: rgb(7, 83, 83);
+    display: flex;
+    font-size: 24px;
+  }
