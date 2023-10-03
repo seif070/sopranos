@@ -46,8 +46,10 @@ toggleShow = () => {
         
        <h1>{this.state.person.fullName}</h1>
        <p>{this.state.person.bio}</p>
-       <img src={this.state.person.imgSrc} alt="https://i.pinimg.com/736x/c7/7d/4c/c77d4c42cd550ffd934541401bc0615a.jpg" />
        <p>{this.state.person.profession}</p>
+
+       <img src={this.state.person.imgSrc} 
+       alt="https://i.pinimg.com/736x/c7/7d/4c/c77d4c42cd550ffd934541401bc0615a.jpg"  style={{width:'250px',height:'300px'}}/>
 
        </div>
 </div>
